@@ -63,7 +63,7 @@ class webexTeams():
 
     def send_hello_to_sparky(self):
         url = self.API_ENDPOINT + "messages"
-        sparky_id = 'Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MjJiYjI3MS1kN2NhLTRiY2UtYTllMy00NzFlNDQxMmZhNzc'
+        sparky_id = 'XXXXXXXXXxxxxxXXXXXXXxxxxxXXX'
         data = [
           ('toPersonId', sparky_id),
           ('text', 'Hello Sparky'),
